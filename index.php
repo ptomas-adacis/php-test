@@ -10,11 +10,22 @@
 <?php
 
 $url = $_SERVER['EDCS_ENV_TEST_URL'];
-$path = $_SERVER['EDCS_ENV_TEST_PATH'];
-$user = $_SERVER['EDCS_ENV_TEST_USER'];
-
 echo "url = '$url'\n";
+
+?>
+  </h1>
+  <h1>
+<?php
+
+$path = $_SERVER['EDCS_ENV_TEST_PATH'];
 echo "path = '$path'\n";
+
+?>
+  </h1>
+  <h1>
+<?php
+
+$user = $_SERVER['EDCS_ENV_TEST_USER'];
 echo "user = '$user'\n";
 
 ?>
